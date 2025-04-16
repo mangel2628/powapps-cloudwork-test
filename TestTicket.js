@@ -3,8 +3,8 @@ export default {
       const url = new URL(request.url);
   
       // Recibir dinámicamente los valores que cambian por botón
-      const title = url.searchParams.get("title") || "Ticket sin título";
-      const description = url.searchParams.get("description") || "Generado desde Power Apps";
+      const title = url.searchParams.get("title") || "Ticket de prueba";
+      const description = url.searchParams.get("description") || "Revisión de ticket de prueba";
       const category_id = parseInt(url.searchParams.get("category_id")) || null;
   
       if (!category_id) {
