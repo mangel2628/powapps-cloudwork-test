@@ -1,0 +1,4 @@
+name = "inv-ticket-worker"
+main = "index.js"
+compatibility_date = "2025-04-16"
+workers_dev = true
